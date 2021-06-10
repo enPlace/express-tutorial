@@ -1,8 +1,6 @@
 const express = require('express')
-const path = require('path')
 const app = express()
-//setup static and middleware
-app.use(express.static('./public'))
+
 // app.get
 // app.post
 // app.put
